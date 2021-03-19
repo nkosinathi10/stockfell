@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+
+.sections{
+    padding-top: 50px;
+    height: 90vh;
+    
+}
+.section{
+    padding-top: 50px;
+    height: 100vh;
+    
+}
+.home-bg{
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+  z-index: -1;
+}
+section .home-bg .headings h1{
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-family: "Sansita Swashed";
+    font-size: 5rem;
+}
+section .home-bg .headings h2{
+    color:black;
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    font-family: "Sansita Swashed";
+    font-size: 5rem;
+}
+.section .heading{
+     color: black;
+     font-family: "Sansita Swashed";
+     font-weight: 900;
+     margin-top: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 7rem;
+     text-decoration: underline;
+}
+.section p{
+    margin-top: 40px;
+    min-width: 150px;
+    font-family: "Sansita Swashed";
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.steps_container{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row img{
+  width: 80px;
+  
+  height: 80px;
+}
+ul{
+    text-decoration: none;
+    
+}
+ul li{
+    text-decoration: none;
+    
+}
+#treeview-searchable .node-disabled {
+    display: none;
+}
